@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pale November Dew
 
-## Getting Started
+Pale November Dew is the frontend application for **ebb-and-flow**, designed to interact with the backend server and provide a seamless user experience. This project is built using **Next.js** with **TypeScript** and utilizes **Tailwind CSS** for styling.
 
-First, run the development server:
+## Features
+- Fetch and display book data from Project Gutenberg
+- Generate AI-powered plot summaries
+- Interactive and dynamic UI with React hooks
+- Responsive design with Tailwind CSS
 
-```bash
+## Installation
+
+### Prerequisites
+Ensure you have the following installed on your machine:
+- **Node.js** (LTS recommended)
+- **npm** or **yarn**
+
+### Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/meadosc/pale-november-dew.git
+   cd pale-november-dew
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+   ```
+
+## Running the Application
+
+### Development Mode
+To start the development server:
+```sh
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Then, open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Production Build
+To build the project for production:
+```sh
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## API Endpoints
+This frontend interacts with the **ebb-and-flow** backend. Ensure the backend is running before using the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Feel free to submit issues or open pull requests for enhancements.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT License. See `LICENSE` for more details.
